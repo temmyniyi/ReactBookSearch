@@ -1,7 +1,7 @@
 {
-  "name": "nyt-google-books-search",
+  "name": "ReactBookSearch",
   "version": "1.0.0",
-  "description": "NYT Google Books Search",
+  "description": "ReactBookSearch",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -13,7 +13,7 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  "author": "Perry Choy",
+  "author": "Temi Olaoluniyi",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.0",
